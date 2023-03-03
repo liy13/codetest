@@ -3,13 +3,18 @@
    提交给仓库的部分，才是我们所需要git帮助的。
 3、git --version 查看版本
 4、git commit -m "提交的版本名"
-5、git checkout filename(不建议，因为不只是文件名，还有相对路径之类)
+5、git checkout filename(不建议，因为不只是文件名，还有相对路径之类) 修改，如果是经历过漫长时间，一般是不用这个的，最好还是根据
+   FILE HISTORY去针对需要修改的文件，查看各个不同版本，然后复制-再提交之类
 6、git reset HEAD^(1、2、3....这些表示以前的版本，HEAD是现在的)
 7、以当前分支为基础建立新的分支，git checkout -b <branchname>
 8、git  checkout <branchname>切换回那个分支
 9、git merge <ranchname> 将指定分支与当前分支进行合并
 10、git merge --abort 放弃这次合并，当不确定是否可以正确处理冲突时，可以暂且放弃
-11、git branch 可以查看当前的所有分支
+11、git branch 可以查看当前的所有分支 
 12、git branch -D <branchname> 删除指定的分支
 13、$ git remote add origin git@github.com:liy13/codetest.git 连接仓库，就是这么简单
 14、没错，可以在网页上进行更改！！
+15、git log --stat 查看历史提交，这个建议图形
+16、其实图形代码都是可以的。看个人喜好吧
+17、如果于远端进行更新的话，注意，提交的版本必须要比远端更新。所以，如果你提交之前，已经有人提交了的话，你需要先更新本地，然后再提交。
+
