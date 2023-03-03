@@ -4,3 +4,4 @@
 3、git --version 查看版本
 4、git commit -m "提交的版本名"
 5、git checkout filename(不建议，因为不只是文件名，还有相对路径之类)
+6、git reset HEAD^(1、2、3....这些表示以前的版本，HEAD是现在的)
