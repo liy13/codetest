@@ -7,5 +7,8 @@
 6、git reset HEAD^(1、2、3....这些表示以前的版本，HEAD是现在的)
 7、以当前分支为基础建立新的分支，git checkout -b <branchname>
 8、git  checkout <branchname>切换回那个分支
-9、
-10、这是a分支
+9、git merge <ranchname> 将指定分支与当前分支进行合并
+10、git merge --abort 放弃这次合并，当不确定是否可以正确处理冲突时，可以暂且放弃
+11、git branch 可以查看当前的所有分支
+12、git branch -D <branchname> 删除指定的分支
+13、$ git remote add origin git@github.com:liy13/codetest.git 连接仓库，就是这么简单
