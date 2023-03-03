@@ -5,3 +5,5 @@
 4、git commit -m "提交的版本名"
 5、git checkout filename(不建议，因为不只是文件名，还有相对路径之类)
 6、git reset HEAD^(1、2、3....这些表示以前的版本，HEAD是现在的)
+
+8、怎么什么都没有啊？是不是主分支没有保存呢？
