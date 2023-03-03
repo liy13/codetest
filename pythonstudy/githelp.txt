@@ -12,3 +12,4 @@
 11、git branch 可以查看当前的所有分支
 12、git branch -D <branchname> 删除指定的分支
 13、$ git remote add origin git@github.com:liy13/codetest.git 连接仓库，就是这么简单
+14、没错，可以在网页上进行更改！！
