@@ -36,9 +36,42 @@
        min(x1,x2,...xn): 得到最小值,数据类型相同。
     7、类型转换函数：int(x)、float(x)、complex(x),转换为整数、浮点数、复数。
        注意的是，int()、float()可以将字符串转换为相应数字，但这个字符串格式不能有除数字外其它符号。
-    8、
-
-    '''
+  
+        
+ '''
 # 这个列表的值，很奇怪。
 # print(max([1,4],[2,3]))
-print(int("1s"))
+# print(int("1s"))
+
+# # DayDayUpQ1.py 天天向上的力量
+# dayfactor=0.01
+# dayup=pow(1+dayfactor,365)
+# daydown=pow(1-dayfactor,365)
+# print("向上：{:.2f} 向下：{:.2f}".format(dayup,daydown))
+
+# # 工作日的力量
+# dayup=1
+# dayfactor=0.01
+# for i in range(365):
+#     if i % 7 in [5,6]:
+#         dayup *= (1-dayfactor)
+#     else:
+#         dayup *= (1+dayfactor)
+# print("最终提升的结果：{:.2f}".format(dayup))
+
+# # 工作日的追赶
+# # 在如今计算机算力的飞速提升下，程序思维中抽象于自动化的部分，作用逐渐凸显，简而言之，
+# # 将具体问题化为抽象的各个步骤，再用计算机自动处理这些
+# def dayUP(dayfactor):
+#     dayup=1
+#     for i in range(365):
+#         if i % 7 in [5,6]:
+#             dayup *= (1-0.001)
+#         else:
+#             dayup *= (1+dayfactor)
+#     return dayup
+# temp=pow(1.001,365)
+# dayfactor=0.001
+# while dayUP(dayfactor)<temp:
+#     dayfactor+=0.0001
+# print("最终提升的结果：{:.4f}".format(dayfactor))
