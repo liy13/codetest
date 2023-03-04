@@ -15,7 +15,7 @@
 import turtle
 '''turtle.setup(width,height,startx,starty),四个元素，定义绘图窗口长宽和位置（距离屏幕左上方的位置）
    这个函数不是必须的，函数后面两个参数也不是必须的（默认为电脑屏幕正中心）'''
-turtle.setup(650,350,200,200)
+turtle.setup(650,350,200,400)
 turtle.penup()
 turtle.fd(-250)
 turtle.pendown()
